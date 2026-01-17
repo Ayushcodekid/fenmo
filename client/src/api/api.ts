@@ -3,7 +3,7 @@ import type { Expense } from "../types/Expense";
 
 
 const api = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://fenmo.onrender.com/api",
   headers: { "Content-Type": "application/json" },
 });
 
