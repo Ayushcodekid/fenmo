@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://xpense-tracking.netlify.app/",
+    origin: "https://xpense-tracking.netlify.app",
     credentials: true
   })
 );
